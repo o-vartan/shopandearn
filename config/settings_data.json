@@ -1,0 +1,1857 @@
+{
+  "current": {
+    "heading_color": "#000000",
+    "text_color": "#323232",
+    "currency_iso_code": "#000000",
+    "pagination_color": "#000000",
+    "accent_color": "#e300ff",
+    "link_color": "#ffc700",
+    "nav_link_color": "#323232",
+    "border_color": "#e1e3e4",
+    "background": "#ffffff",
+    "secondary_background": "#ffffff",
+    "error_color": "#ff5757",
+    "success_color": "#c9e265",
+    "primary_button_background": "#e300ff",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#ffffff",
+    "secondary_button_text_color": "#e300ff",
+    "header_background": "#000000",
+    "header_text_color": "#ffffff",
+    "header_light_text_color": "#a3afef",
+    "header_accent_color": "#e300ff",
+    "product_on_sale_accent": "#ff5757",
+    "product_on_sale_price_accent": "#000000",
+    "product_in_stock_color": "#5c9346",
+    "product_low_stock_color": "#ff5757",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#5c9346",
+    "product_label_2_background": "#5c9346",
+    "product_star_color": "#000000",
+    "base_text_font_size": 16,
+    "heading_font": "poppins_n5",
+    "nav_link_font": "poppins_n5",
+    "text_font": "poppins_n4",
+    "underline_links": false,
+    "animation_image_zoom": true,
+    "search_mode": "product,article,page",
+    "show_vendor": false,
+    "show_secondary_image": false,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "square",
+    "show_color_swatch": true,
+    "show_inventory_quantity": false,
+    "low_inventory_threshold": 0,
+    "show_reviews_badge": false,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "share_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/PermissionIO",
+    "social_twitter": "https:\/\/twitter.com\/permissionIO",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/permissionio\/",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/permission-io\/",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#00badb",
+    "checkout_button_color": "#00badb",
+    "checkout_error_color": "#ff0000",
+    "nav-link-font": "poppins_n5",
+    "social_google_plus": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1595421168548": {
+            "type": "new_mega_menu",
+            "settings": {
+              "new_menu_item": "Electronics",
+              "image_1_heading": "",
+              "image_1_text": "Best Deals on Electronics!",
+              "image_1_link": "",
+              "new_menu_list_title": "More Electronics"
+            }
+          },
+          "1591791179419": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Home Goods",
+              "image_1_heading": "",
+              "image_1_text": "Special on Category!",
+              "image_1_link": "shopify:\/\/pages\/girls-clothing",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "1596708119654": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Accessories",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "1596782143974": {
+            "type": "new_mega_menu",
+            "settings": {
+              "new_menu_item": "Sport & Leisure",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "new_menu_list_title": ""
+            }
+          },
+          "87df5e97-d593-4ca1-b6a2-ec2a3817c9df": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Apparel",
+              "image_1_heading": "Crypto Fashions",
+              "image_1_text": "Latest in crypto merch",
+              "image_1_link": "https:\/\/shopandearn.permission.io\/collections\/permission",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1595421168548",
+          "1591791179419",
+          "1596708119654",
+          "1596782143974",
+          "87df5e97-d593-4ca1-b6a2-ec2a3817c9df"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/Top_Logo.png",
+          "logo_max_width": 185,
+          "mobile_logo_max_width": 100,
+          "show_locale_selector": false,
+          "show_currency_selector": true,
+          "start_chat": false,
+          "navigation_menu": "",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": true,
+          "navigation_phone_number": "",
+          "navigation_email": "support@permission.io",
+          "show_condensed_search": true,
+          "show_search_filter": true,
+          "search_menu": "",
+          "show_search_menu_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1590767811665": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "ABOUT THE STORE",
+              "content": "<p>At Permission we believe you should get compensated for your time and data. Watch videos while shopping and we reward you with ASK, the Permission Cryptocurrency. Combined with top products and customer service, the Shop &amp; Earn store is a new approach to online shopping that empowers consumers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1590767811665",
+          "footer-0"
+        ],
+        "settings": {
+          "show_social_media": false,
+          "show_payment_icons": true,
+          "show_locale_selector": false,
+          "show_powered_by": false,
+          "show_currency_selector": false,
+          "show_cookie_bar": false,
+          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "accept_button": "Accept"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_a904072b-1c05-4318-ab38-954c55e44525.png",
+              "mobile_image": "shopify:\/\/shop_images\/2_ea1ec0e9-88a6-4f42-9784-f84fc7811779.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#000000",
+              "title": "Electronics",
+              "content": "",
+              "content_position": "middle_right",
+              "button_background": "#00badb",
+              "button_text_color": "#ffffff",
+              "button_text": "SHOP",
+              "link": "shopify:\/\/collections\/gift-cards"
+            }
+          },
+          "slide-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_abf6a719-3b64-42c4-94e0-b75ab84d236c.png",
+              "mobile_image": "shopify:\/\/shop_images\/3_bc1c2b02-8218-445c-a276-618ee4bcc698.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Official Merch",
+              "content": "",
+              "content_position": "middle_left",
+              "button_background": "#00badb",
+              "button_text_color": "#ffffff",
+              "button_text": "SHOP",
+              "link": "shopify:\/\/collections\/permission"
+            }
+          },
+          "1590752894521": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Slider_photos_4.png",
+              "mobile_image": "shopify:\/\/shop_images\/1_0766c35f-cf89-4598-90a4-e9e1762cf93f.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#000000",
+              "title": "Home Collection",
+              "content": "",
+              "content_position": "middle_right",
+              "button_background": "#00badb",
+              "button_text_color": "#ffffff",
+              "button_text": "SHOP",
+              "link": "shopify:\/\/collections\/home"
+            }
+          }
+        },
+        "block_order": [
+          "slide-0",
+          "slide-1",
+          "1590752894521"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "large",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "apparel-1",
+              "image": "shopify:\/\/shop_images\/3_59014a7f-8e48-4017-9c37-26953c6ad632.png"
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "home",
+              "image": "shopify:\/\/shop_images\/4_cf4dc96d-4373-4216-bf0f-3cfa8b1a3f3a.png"
+            }
+          },
+          "collection-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "permission-posters",
+              "image": "shopify:\/\/shop_images\/6.png"
+            }
+          },
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "headphones-earphones-1",
+              "image": "shopify:\/\/shop_images\/5_82eb68a9-6649-4c03-90a9-cedad0792b0d.png"
+            }
+          },
+          "collection-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "gift-cards",
+              "image": "shopify:\/\/shop_images\/7.png"
+            }
+          }
+        },
+        "block_order": [
+          "collection-1",
+          "collection-2",
+          "collection-3",
+          "collection-0",
+          "collection-4"
+        ],
+        "settings": {
+          "title": "Popular categories",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": false,
+          "show_collection_title": true
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "product": "",
+          "title": "Featured product",
+          "link_title": "View details",
+          "link_url": "",
+          "show_vendor": true,
+          "show_sku": true,
+          "show_share_buttons": true,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": true,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": true,
+          "low_inventory_threshold": 11
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": false,
+          "collapse_collection_description": true,
+          "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "show_view_layout": false,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list_grid",
+          "show_quick_view": "list_grid",
+          "quick_links": "main-menu",
+          "quick_links_show_products_count": false,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "group",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": "Style, Vendor, Price"
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_vendor": false,
+          "show_sku": false,
+          "show_share_buttons": false,
+          "show_taxes_included": true,
+          "selector_mode": "block",
+          "color_mode": "variant_image",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "image_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 12,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "custom_security_badge": "shopify:\/\/shop_images\/safe-checkout.png",
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States",
+          "show_refunds_policy": true,
+          "show_return_policy": true,
+          "return_policy_text": "Return Policy",
+          "return_policy_link": "https:\/\/support.permission.io\/hc\/en-us\/articles\/360052244213-What-Is-Your-Return-Policy-"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_quick_buy": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "background": "#1e2d7d",
+          "text_color": "#ffffff",
+          "text": "Announce something here",
+          "text_position": "left",
+          "link": "",
+          "show_newsletter": true,
+          "newsletter_button": "Subscribe & Save",
+          "newsletter_title": "Newsletter",
+          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+        }
+      },
+      "1542984811767": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "collection": "deal-zone",
+          "title": "Deal Zone",
+          "products_count": 12,
+          "layout": "vertical",
+          "stack_desktop": false,
+          "show_quick_buy": false,
+          "link_title": "",
+          "link_url": ""
+        }
+      },
+      "1542984842027": {
+        "type": "newsletter",
+        "disabled": true,
+        "settings": {
+          "title": "Let's keep in touch!",
+          "content": "<p>Subscribe to our weekly newsletter and receive exclusive offers on products you love!<\/p>"
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "settings": {}
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-delivery",
+              "title": "Free delivery worldwide",
+              "content": "<p>On most orders! <a href=\"https:\/\/support.permission.io\/hc\/en-us\/articles\/360051469494-What-are-the-shipping-costs-\" title=\"https:\/\/support.permission.io\/hc\/en-us\/articles\/360051469494-What-are-the-shipping-costs-\">**<\/a><\/p>"
+            }
+          },
+          "text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Satisfaction Guaranteed",
+              "content": "<p>Not satisfied? We&#x27;ll refund it<\/p>"
+            }
+          },
+          "text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Top-notch support",
+              "content": "<p>Chat or Create a ticket<\/p>"
+            }
+          },
+          "text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Secure payments",
+              "content": "<p>Across Fiat &amp; Crypto<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text-with-icons-0",
+          "text-with-icons-1",
+          "text-with-icons-2",
+          "text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": false
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "1590754479513": {
+        "type": "promotion-list",
+        "disabled": true,
+        "blocks": {
+          "1590754479513-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/promotion-tvs_x2000_x800_e006a7f7-b5ec-4bce-8749-6f94e714d5ab.png",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#fc2a68",
+              "text_color": "#ffffff",
+              "title": "OLED TVs",
+              "content": "Exclusive offers on TVs until Dec 31.\n$100 off on every purchase",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#fc2a68",
+              "button_text": "Shop OLED TVs",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "1590754479513-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/promotion-tvs_x2000_x800_1c298edc-d16c-4700-8773-77ead5990601.png",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#6f42ef",
+              "text_color": "#ffffff",
+              "title": "Speakers",
+              "content": "Explore our range of high-quality speakers.",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#6f42ef",
+              "button_text": "Shop Speakers",
+              "button_link": "shopify:\/\/collections"
+            }
+          },
+          "1590754479513-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/promotion-tvs_x2000_x800_4077c374-98c3-4488-afb5-cc75a1f51ed9.png",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "stretch_image": false,
+              "background": "#26c1ce",
+              "text_color": "#ffffff",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#26c1ce",
+              "button_text": "Learn more",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1590754479513-0",
+          "1590754479513-1",
+          "1590754479513-2"
+        ],
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "1590755755095": {
+        "type": "offers",
+        "disabled": true,
+        "blocks": {
+          "1590755755095-0": {
+            "type": "offer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide-1-headphones_1800x_a91c09af-26e1-4803-8e53-ddce6baae97b.jpg",
+              "title": "Exclusive offers on JBL products",
+              "content": "<p>We offer you a lot of discounts on all our JLB speakers, including JBL Clip 3, JBL Flip 4 or JBL Link 20 !<\/p>"
+            }
+          },
+          "1590755755095-1": {
+            "type": "offer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slide-1-headphones_1800x_266c3c06-19fd-4e6d-bc7c-662b6fc25aae.jpg",
+              "title": "Free shipping for all orders overs $80",
+              "content": "<p>We got you covered ! We deliver your goods using UPS expedited shipping, free of charge<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1590755755095-0",
+          "1590755755095-1"
+        ],
+        "settings": {
+          "items_per_row": 2,
+          "stack_mobile": false
+        }
+      },
+      "1590764520378": {
+        "type": "mosaic",
+        "disabled": true,
+        "blocks": {
+          "1590764520378-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/imgonline-com-ua-Compressed-rEPO49chAVsG.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 14,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "Cameras",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#05aff2",
+              "button_text_color": "#ffffff",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/cameras-1"
+            }
+          },
+          "1590764520378-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AdobeStock_9430047.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 49,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "Computer Accessories",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#05aff2",
+              "button_text_color": "#ffffff",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/computer-accessories"
+            }
+          },
+          "1590764520378-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/imgonline-com-ua-Compressed-bJfYLBhrjvXR3.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 40,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "Headphones & Earphones",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#05aff2",
+              "button_text_color": "#ffffff",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/headphones-earphones-1"
+            }
+          },
+          "1590764520378-3": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/imgonline-com-ua-Compressed-XsQG9tvUksIck.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 40,
+              "background": "#000000",
+              "text_color": "#ffffff",
+              "title": "Cell phones",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#05aff2",
+              "button_text_color": "#ffffff",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/cell-phones-1"
+            }
+          },
+          "1590764520378-4": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/imgonline-com-ua-Compressed-n2mHxgJwcbucAkce.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 40,
+              "background": "#000000",
+              "text_color": "#ffffff",
+              "title": "Wearable tech",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#05aff2",
+              "button_text_color": "#ffffff",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/wearable-tech"
+            }
+          }
+        },
+        "block_order": [
+          "1590764520378-0",
+          "1590764520378-1",
+          "1590764520378-2",
+          "1590764520378-3",
+          "1590764520378-4"
+        ],
+        "settings": {
+          "section_size": "medium"
+        }
+      },
+      "1590765058756": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "text_width": "narrow",
+          "title": "About Warehouse",
+          "content": "<p>Use this text to share information about your brand with your customers.<\/p><p>Our mission statement is to provide the absolute best customer experience available in the Audio\/Video industry without exception. We choose to only sell the best performing products in the world, learning them inside and out to ensure your experience with our organization and the products we supply are second to none. HiDEF Lifestyle is one of the fastest growing Audio and Video retailers in the United States.<\/p><p><\/p>",
+          "button_text": "Discover our brand",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1590765220371": {
+        "type": "collection-with-image",
+        "settings": {
+          "collection": "permission",
+          "products_count": 4,
+          "image": "shopify:\/\/shop_images\/White_Box_1000x400_1b3cd70f-00c7-46da-8b2d-b062b21f335d.png",
+          "background": "#ffffff",
+          "text_color": "#000000",
+          "title": "FEATURED",
+          "content": "Shop our Permission.io Gear",
+          "button_background": "#e300ff",
+          "button_text_color": "#ffffff",
+          "button_text": "SHOP NOW",
+          "button_link": ""
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 20
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": true,
+          "title": "Subscribe to our newsletter",
+          "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+          "subtext": "100% free, Unsubscribe any time!",
+          "background": "#1e2d7d",
+          "text": "#ffffff"
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "products_per_row": "4",
+          "show_view_layout": false,
+          "default_view_layout": "grid",
+          "show_quick_view": "list",
+          "show_quick_buy": "list",
+          "quick_links": ""
+        }
+      },
+      "1592843025509": {
+        "type": "permission-main-banner",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_27.png",
+          "image-mobile": "shopify:\/\/shop_images\/Group_28.png",
+          "title": "<p>Shop & Earn ASK<\/p>",
+          "text": "<p>Top products, great customer service, and you can earn ASK watching videos while you shop!<\/p>",
+          "text_color": "#ffffff",
+          "banner_link_text": "",
+          "banner_link_url": ""
+        }
+      },
+      "1592843471094": {
+        "type": "permission-text-with-icons",
+        "disabled": true,
+        "blocks": {
+          "1592843471094-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Easy Returns"
+            }
+          },
+          "1592843471094-0": {
+            "type": "item",
+            "settings": {
+              "icon": "permission-bi-credit-card",
+              "title": "Secure Payments"
+            }
+          },
+          "1592843471094-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Top Notch  Support"
+            }
+          }
+        },
+        "block_order": [
+          "1592843471094-1",
+          "1592843471094-0",
+          "1592843471094-2"
+        ],
+        "settings": {
+          "stack_mobile": false
+        }
+      },
+      "1592917716239": {
+        "type": "recently-viewed-products",
+        "disabled": true,
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "1592985969781": {
+        "type": "logo-list",
+        "blocks": {
+          "1592985969781-0": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_14_014cffe6-c27d-461a-9b64-7fc7a9f4c809.png",
+              "link": "shopify:\/\/collections\/samsung"
+            }
+          },
+          "1592985969781-1": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/u870_5a7ffe55-ef03-49b4-b335-edaf70d33964.png",
+              "link": "shopify:\/\/collections\/hp"
+            }
+          },
+          "1592985969781-2": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_8d88473a-e46c-4bdf-98de-408a5325a0ec.png",
+              "link": "shopify:\/\/collections\/xiaomi"
+            }
+          },
+          "1592985969781-3": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Shop_Earn_37759a73-8218-41bf-8c64-160811efe17b.png",
+              "link": "shopify:\/\/collections\/toshiba"
+            }
+          },
+          "1592985969781-4": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_1da46c2e-1828-42bb-b388-7dce6f9019ed.png",
+              "link": "shopify:\/\/collections\/huawei"
+            }
+          },
+          "1592985969781-5": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_15_4f3c7708-caf2-4b79-93cd-78d647829ae2.png",
+              "link": "shopify:\/\/collections\/philips"
+            }
+          },
+          "1597668364648": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/permission_logo_white_86d13c0e-2a11-4747-bc9e-e95026d322b6.png",
+              "link": "shopify:\/\/collections\/mattel"
+            }
+          },
+          "1597738018224": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_26_2_3dccda16-e891-4e6c-962f-ed6745b0a98c.png",
+              "link": "shopify:\/\/collections\/disney"
+            }
+          }
+        },
+        "block_order": [
+          "1592985969781-0",
+          "1592985969781-1",
+          "1592985969781-2",
+          "1592985969781-3",
+          "1592985969781-4",
+          "1592985969781-5",
+          "1597668364648",
+          "1597738018224"
+        ],
+        "settings": {
+          "title": "Popular Brands",
+          "link_title": "",
+          "link": ""
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "enable_order_notes": true,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States",
+          "trust_heading": "Our guarantees",
+          "upsell_heading": "Complete your cart",
+          "upsell_collection": "",
+          "upsell_products_count": 4
+        }
+      },
+      "16037848695e9556bc": {
+        "type": "permission-swag",
+        "disabled": true,
+        "blocks": {
+          "16037848695e9556bc-0": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/eff601f75ee66a7c2373eea65425fed1.jpg",
+              "link": "shopify:\/\/products\/unisex-crewneck-sweatshirt-with-permission-logo"
+            }
+          },
+          "16037848695e9556bc-1": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DqsXhwKBFAE.jpg",
+              "link": "shopify:\/\/products\/unisex-hooded-sweatshirt-with-permission-logo"
+            }
+          },
+          "16037848695e9556bc-2": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PIIiZnuObGc.jpg",
+              "link": "shopify:\/\/products\/womens-ideal-racerback-tank"
+            }
+          },
+          "16037848695e9556bc-3": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/464BMdOO43g.jpg",
+              "link": "shopify:\/\/products\/super-soft-short-sleeve-tee-shirt-with-permission-logo"
+            }
+          },
+          "16037848695e9556bc-4": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wr4dN7cbjjk.jpg",
+              "link": "shopify:\/\/products\/unisex-zip-hoodie-sweatshirt-with-permission-logo-back-print"
+            }
+          }
+        },
+        "block_order": [
+          "16037848695e9556bc-0",
+          "16037848695e9556bc-1",
+          "16037848695e9556bc-2",
+          "16037848695e9556bc-3",
+          "16037848695e9556bc-4"
+        ],
+        "settings": {
+          "title": "Show Your Permission Pride!",
+          "link_title": "Shop All Permission Gear",
+          "link": "shopify:\/\/collections\/permission"
+        }
+      },
+      "1625005948ec63ea29": {
+        "type": "slideshow",
+        "blocks": {
+          "1625005948ec63ea29-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_1ab3502a-f792-4df2-8d9f-37c5b3be1147.png",
+              "mobile_image": "shopify:\/\/shop_images\/Mobile_ASK_Store.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "APPAREL",
+              "content": "Official Permission & ASK merch, cool cryptowear & more",
+              "content_position": "middle_right",
+              "button_background": "#ffffff",
+              "button_text_color": "#e300ff",
+              "button_text": "SHOP NOW",
+              "link": "shopify:\/\/collections\/apparel-1"
+            }
+          },
+          "1625005948ec63ea29-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_4ad496ed-362e-40d0-89cf-39241a59f753.png",
+              "mobile_image": "shopify:\/\/shop_images\/2_c04404ec-da77-4bbe-abd0-3feaa5609c38.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "HOME",
+              "content": "There's no place like it",
+              "content_position": "middle_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#e300ff",
+              "button_text": "SHOP NOW",
+              "link": "shopify:\/\/collections\/home"
+            }
+          },
+          "14b2c373-60c7-41ca-b0fb-5aa94b3e34c0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_609145c7-1d92-4779-abbc-2e9ab4dc40d8.png",
+              "mobile_image": "shopify:\/\/shop_images\/3_8cf21122-8e09-4022-a305-ec6c50a46ce3.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "NFTS",
+              "content": "Modern marvels of the digital age 🤖",
+              "content_position": "middle_right",
+              "button_background": "#ffffff",
+              "button_text_color": "#e300ff",
+              "button_text": "SHOP NOW",
+              "link": "shopify:\/\/pages\/nft-gallery"
+            }
+          },
+          "2ba7641f-4b50-4672-8924-da8621d60c77": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4_0e8812c2-cb78-4fc8-95b4-9df9627df81e.png",
+              "mobile_image": "shopify:\/\/shop_images\/5_6455667c-b1fc-4aa4-a692-51b5656a594b.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "ELECTRONICS",
+              "content": "Live an electric life ⚡",
+              "content_position": "middle_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#e300ff",
+              "button_text": "SHOP NOW",
+              "link": "shopify:\/\/collections\/headphones-earphones-1"
+            }
+          },
+          "28a992c7-8aaa-43e4-bfd1-510c9bbe28b0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_8c12e28f-2bff-4ff0-9b47-14c033ee46db.png",
+              "mobile_image": "shopify:\/\/shop_images\/4_c90d141e-9f93-44e6-b1e9-11f3a69779da.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "GIFT CARDS",
+              "content": "Your gift, their choice",
+              "content_position": "middle_right",
+              "button_background": "#ffffff",
+              "button_text_color": "#e300ff",
+              "button_text": "SHOP NOW",
+              "link": "shopify:\/\/collections\/gift-cards"
+            }
+          }
+        },
+        "block_order": [
+          "1625005948ec63ea29-0",
+          "1625005948ec63ea29-1",
+          "14b2c373-60c7-41ca-b0fb-5aa94b3e34c0",
+          "2ba7641f-4b50-4672-8924-da8621d60c77",
+          "28a992c7-8aaa-43e4-bfd1-510c9bbe28b0"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "large",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "1625078692c2702a6f": {
+        "type": "permission-swag",
+        "blocks": {
+          "1625078691426836ff-0": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_17f439ae-2038-432e-9d62-f561befc3558.png",
+              "link": ""
+            }
+          },
+          "1625078691426836ff-1": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_e242e3f0-8275-4738-b85d-597501543c4e.png",
+              "link": ""
+            }
+          },
+          "1625078691426836ff-2": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_91847b69-9a20-4b04-88c5-3d7ed4a42540.png",
+              "link": ""
+            }
+          },
+          "1625078691426836ff-3": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4_56b43f5c-ff82-464d-8911-f9e4cf1f4875.png",
+              "link": ""
+            }
+          },
+          "1625078691426836ff-4": {
+            "type": "permission-item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_2a17b48c-5fc5-482f-b991-31fae0fea20a.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1625078691426836ff-0",
+          "1625078691426836ff-1",
+          "1625078691426836ff-2",
+          "1625078691426836ff-3",
+          "1625078691426836ff-4"
+        ],
+        "settings": {
+          "title": "Share your #ASKPermission photos & earn more ASK!",
+          "link_title": "",
+          "link": ""
+        }
+      },
+      "16256003886324a2b7": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/OG.png",
+          "image_position": "left",
+          "image_width": 50,
+          "title": "The Best Way Earn ASK",
+          "content": "<p>Easily earn ASK as you surf the web when you install the Permission Browser Extension! We make earning from your data fun by rewarding you for watching relevant videos and engaging with the brands you love.<\/p>",
+          "button_text": "Get The Browser Extension",
+          "button_link": "https:\/\/bit.ly\/3yv2wCW"
+        }
+      }
+    },
+    "content_for_index": [
+      "1625005948ec63ea29",
+      "collection-list",
+      "16256003886324a2b7",
+      "1590765220371",
+      "1592843025509",
+      "1592843471094",
+      "1590764520378",
+      "slideshow",
+      "1592985969781",
+      "1542984811767",
+      "1590754479513",
+      "1590755755095",
+      "1590765058756",
+      "featured-product",
+      "1542984842027",
+      "1592917716239",
+      "16037848695e9556bc",
+      "1625078692c2702a6f"
+    ]
+  },
+  "presets": {
+    "Metal": {
+      "heading_color": "#1e2d7d",
+      "text_color": "#677279",
+      "accent_color": "#00badb",
+      "link_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "background": "#f3f5f6",
+      "secondary_background": "#ffffff",
+      "error_color": "#ff0000",
+      "success_color": "#00aa00",
+      "primary_button_background": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#1e2d7d",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#a3afef",
+      "header_accent_color": "#00badb",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#008a00",
+      "product_label_2_background": "#00a500",
+      "product_star_color": "#ffbd00",
+      "base_text_font_size": 16,
+      "heading_font": "din_next_n5",
+      "text_font": "din_next_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "product_price_position": "after_title",
+      "product_image_size": "natural",
+      "show_discount": true,
+      "discount_mode": "saving",
+      "show_color_swatch": false,
+      "show_inventory_quantity": false,
+      "low_inventory_threshold": 0,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "share_image": "",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_google_plus": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#00badb",
+      "checkout_button_color": "#00badb",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {}
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    },
+    "Wood": {
+      "heading_color": "#3a2a2f",
+      "text_color": "#3a2a2f",
+      "accent_color": "#ff6128",
+      "link_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "background": "#f7f4f2",
+      "secondary_background": "#ffffff",
+      "error_color": "#f71b1b",
+      "success_color": "#48b448",
+      "primary_button_background": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3a2a2f",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e9e2dd",
+      "header_accent_color": "#ff6128",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_1_background": "#ff6128",
+      "product_label_2_background": "#a95ebe",
+      "product_star_color": "#ffb647",
+      "base_text_font_size": 15,
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "text_font": "basic_commercial_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article,page",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "product_image_size": "square",
+      "show_color_swatch": false,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 1,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#ff6128",
+      "checkout_button_color": "#ff6128",
+      "checkout_error_color": "#f71b1b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {}
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1550833441117": {
+          "type": "collection-with-image",
+          "settings": {
+            "collection": "",
+            "products_count": 12,
+            "image": "",
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season.",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "1555314133560": {
+          "type": "promotion-list",
+          "blocks": {
+            "1555314133560-0": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#6f42ef",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-1": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#fc2a68",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-2": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#26c1ce",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ],
+          "settings": {
+            "expand_items": false,
+            "section_size": "medium",
+            "stack_mobile": false
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ]
+    }
+  }
+}

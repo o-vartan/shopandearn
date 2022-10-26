@@ -1,0 +1,9 @@
+<div id="scm-reviews-shopSetting" data-shop={{ shop.metafields.scm_review_importer.shop_info_setting }}>
+</div>
+{{ "reviews-importer.js" | asset_url | script_tag }}
+<div id="scm-review-importer-popup" style="display: none;">
+    <div class="scm-popup-before"></div>
+    <div class="scm-popup-content">
+        <iframe id="scm-review-importer-popup-iframe" height="700px" width="100%"></iframe>
+    </div>
+</div>

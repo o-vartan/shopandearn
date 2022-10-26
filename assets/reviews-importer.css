@@ -1,0 +1,56 @@
+#scm-reviews-importer-iframe{
+    border: none;
+    margin-top: 30px;
+}
+#scm-reveiw-importer-popup{
+    visibility: hidden;
+    opacity: 0;
+}
+#scm-reveiw-importer-popup.show-popup{
+    visibility: visible;
+    opacity: 1;
+}
+.scm-popup-content{
+    width: calc(100% - 20px);
+    max-width: 992px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000000;
+    height: calc(100% - 30px);
+    max-height: 600px;
+}
+.scm-popup-content iframe{
+    height: 100%;
+    overflow: hidden;
+    border: none;
+}
+.scm-popup-before{
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 10000000;
+    cursor: pointer;
+}
+.scm-reviews-importer-default{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.scm-container{
+    margin: 0 auto;
+
+}
+@media (max-width: 1400px) {
+    .scm-popup-content{
+        height: calc(100vh - 100px);
+    }
+}
+@media (max-width: 767px) {
+    .scm-popup-content{
+        height: calc(100vh - 20px);
+    }
+}

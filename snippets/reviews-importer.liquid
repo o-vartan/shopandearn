@@ -1,0 +1,309 @@
+<script>
+  const htmlIframe=`
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reviews Importer</title>
+    <script>
+        var infoShop="{{ shop.metafields.scm_review_importer.shop_info_setting }}";
+        var reviewsInFo= "{{ product.metafields.scm_review_importer.reviewsInfo }}";
+        var blockReviewFirst="{{ product.metafields.scm_review_importer.reviews }}";
+    <\/script>
+    <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/assets/css/scm-bootstrap.css?version=13" rel="stylesheet">
+    <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/assets/css/scm-review-importer.css?version=13" rel="stylesheet">
+    <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/assets/css/photo-flags.css?version=13" rel="stylesheet">
+    <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/fontawesome/css/all.min.css?version=13" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap" rel="stylesheet">
+    <style>
+        {% include 'reviews-importer-css-custom' %}
+    </style>
+  </head>
+  <body style="">
+  <div id="scm-review-importer-value" data-shopname="{{ shop.permanent_domain | remove: ".myshopify.com"}}" data-productidshopify="{{ product.id }}" data-pagecurrent="1" data-rate="null"
+       data-reviewperpage="5"></div>
+  <div class="scm-row">
+    <div class="scm-col-6">
+      <div class="scm-rating">
+        <p class="title">{{ 'smart_aliexpress_review.box_reviews.title_info' | t}}</p>
+        <div class="info">
+          <div class="number">
+            <span id="average">5</span>
+          </div>
+          <div class="text-number">
+            {{ 'smart_aliexpress_review.box_reviews.before_number' | t}} <span id="total-review">0</span><span> {{ 'smart_aliexpress_review.box_reviews.after_number' | t}}</span>
+          </div>
+        </div>
+        <div class="group-progress-bar">
+          <div id="rate-5" class="item-progress-bar" data-rate="5">
+            <div class="text-number">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="progress-bar">
+              <div style="max-width: 0%"></div>
+            </div>
+            <div class="total-number">0</div>
+          </div>
+          <div id="rate-4" class="item-progress-bar" data-rate="4">
+            <div class="text-number">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="progress-bar">
+              <div style="max-width: 0%"></div>
+            </div>
+            <div class="total-number">0</div>
+          </div>
+          <div id="rate-3" class="item-progress-bar" data-rate="3">
+            <div class="text-number">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="progress-bar">
+              <div style="max-width: 0%"></div>
+            </div>
+            <div class="total-number">0</div>
+          </div>
+          <div id="rate-2" class="item-progress-bar" data-rate="2">
+            <div class="text-number">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="progress-bar">
+              <div style="max-width: 0%"></div>
+            </div>
+            <div class="total-number">0</div>
+          </div>
+          <div id="rate-1" class="item-progress-bar" data-rate="1">
+            <div class="text-number">
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="progress-bar">
+              <div style="max-width: 0%"></div>
+            </div>
+            <div class="total-number">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scm-col-6">
+      <div class="scm-write-review" data-url="https://reviews.smartifyapps.com/api/reviews/submit-shopify/image">
+        <form id="scm-form-review" action="https://reviews.smartifyapps.com/api/reviews/submit-shopify" method="POST"
+              enctype="multipart/form-data">
+          <h2>{{ 'smart_aliexpress_review.box_write.title_write' | t}}</h2>
+          <div class="input-rating">
+            <p>{{ 'smart_aliexpress_review.box_write.before_star' | t}}</p>
+            <div id="write-rating-star" class="write-rating-star-group">
+              <div class="block-item-star nth-1 selected-star" data-value="1">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="block-item-star nth-2 selected-star" data-value="2">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="block-item-star nth-3 selected-star" data-value="3">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="block-item-star nth-4 selected-star" data-value="4">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="block-item-star nth-5 selected-star" data-value="5">
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <input id="rate-value" name="rating" type="hidden" value="5">
+            <input id="location" name="country" type="hidden" value="null">
+            <input name="product_shopify" type="hidden" value="{{ product.id }}">
+            <input id="order" name="order" type="hidden" value="">
+			<input name="shop" type="hidden" value="{{ shop.permanent_domain | remove: ".myshopify.com"}}">
+                  <div class="scm-row">
+                    <div class="scm-col-6">
+                      <input name="author" type="text" placeholder="{{ 'smart_aliexpress_review.box_write.input_name' | t}}" required="">
+                    </div>
+                    <div class="scm-col-6">
+                      <input name="email" type="email" placeholder="{{ 'smart_aliexpress_review.box_write.input_email' | t}}" required="">
+                    </div>
+                  </div>
+                  <div class="scm-row">
+                    <div class="scm-col-12">
+                      <textarea rows="4" name="review" placeholder="{{ 'smart_aliexpress_review.box_write.input_text_area' | t}}" required=""></textarea>
+                    </div>
+                  </div>
+                  <div class="scm-row">
+                    <div class="scm-col-12">
+                      <label for="scm-upload"><i class="fas fa-upload"></i>{{ 'smart_aliexpress_review.box_write.input_photo' | t}}</label>
+                      <input id="scm-upload" name="images" type="file" accept="image/x-png,image/jpeg"
+                             style="display: none;">
+                        <ul class="group-load-img">
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="scm-row">
+                    <div class="scm-col-12 fail-style fail-escape" style="display: none;">
+						<p>{{ 'smart_aliexpress_review.box_write.message_error_character' | t}}</p>
+                    </div>
+					<div class="scm-col-12 fail-style fail-size" style="display: none;">
+						<p>{{ 'smart_aliexpress_review.box_write.message_error_file_upload' | t}}</p>
+                    </div>
+                   </div>
+                  <div class="scm-row">
+                    <div class="scm-col-12">
+                      <button type="submit" class="scm-btn-submit"><i class="fa fa-spinner fa-spin"></i>{{ 'smart_aliexpress_review.box_write.button_write' | t}}
+                      </button>
+                    </div>
+                  </div>
+                  <div class="result-reviews">
+                    <p class="success">{{ 'smart_aliexpress_review.box_write.message_success' | t}}</p>
+                    <p class="fail">{{ 'smart_aliexpress_review.box_write.message_fail' | t}}</p>
+                  </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="popup-review" class="popup-review" style="display: none;">
+  </div>
+
+  <div id="reviewImporter"  data-url="https://reviews.smartifyapps.com/api/load-more">
+    <div class="scm-row">
+
+    </div>
+    <div class="parent-loader">
+      <div class="loader-load-more"></div>
+    </div>
+    <div class="scm-pagination-load-more">
+      <button id="scm-btn-load-more" class="scm-btn-load-more">{{ 'smart_aliexpress_review.reviews_list.button_load_more' | t}}</button>
+    </div>
+    <div class="last-element"></div>
+    </div>
+    <script src="https://d1bu6z2uxfnay3.cloudfront.net/js/frontend/jQuery.js">
+    <\/script>
+    <script src="https://d1bu6z2uxfnay3.cloudfront.net/js/frontend/helper.js?version=13">
+    <\/script>
+    <script src="https://d1bu6z2uxfnay3.cloudfront.net/js/frontend/reviewPage.js?version=13">
+    <\/script>
+    <script src="https://d1bu6z2uxfnay3.cloudfront.net/js/frontend/writeReview.js?version=13">
+    <\/script>
+  </body>
+  </html>
+  `;
+</script>
+<div id="scm-product-detail-rate" style="display: none;" data-rate="{{ product.metafields.scm_review_importer.reviewsInfo }}"></div>
+
+<script>
+function createPopupHtml(content, photos) {
+    let photosAray = JSON.parse(atob(photos));
+    let contentHtml = atob(content);
+    let photoHtml = "";
+    let photoDotHtml = "";
+    photosAray.forEach((photo, index) => {
+        let indexDot = index + 1;
+        photoHtml = photoHtml + `<div class="scm-slide"><img src="${photo}"></div>`;
+        photoDotHtml = photoDotHtml + `<div class="column scm-slide-dot cursor" onclick="currentSlide(${indexDot})">
+    <img src="${photo}" alt="Custom text">
+</div>`;
+    })
+    return `<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reviews Importer</title>
+        <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/assets/css/scm-bootstrap.css?version=13" rel="stylesheet">
+        <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/assets/css/scm-review-importer-popup.css?version=13" rel="stylesheet">
+        <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/fontawesome/css/all.min.css" rel="stylesheet">
+        <link href="https://d1bu6z2uxfnay3.cloudfront.net/css/assets/css/photo-flags.css?version=13" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+         <script>
+                var infoShop="{{ shop.metafields.scm_review_importer.shop_info_setting }}";
+         <\/script>
+         <style>
+            {% include 'reviews-importer-css-custom' %}
+        </style>
+    </head>
+    <body>
+        <button class="scm-close-popup"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <div class="scm-review-importer-popup">
+            <div class="scm-row">
+                <div class="scm-col-6 left">
+                    <div class="img-popup">
+                        ${photoHtml}
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                </div>
+                <div class="scm-col-6 right">
+                    <div class="content-popup">
+                        ${contentHtml}
+                        <div class="scm-slide-dot-container">
+                            ${photoDotHtml}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://d1bu6z2uxfnay3.cloudfront.net/js/frontend/jQuery.js"><\/script>
+        <script src="https://d1bu6z2uxfnay3.cloudfront.net/js/frontend/helper.js?version=13"><\/script>
+        <script src="https://d1bu6z2uxfnay3.cloudfront.net/js/frontend/reviewPagePopup.js?version=13"><\/script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("scm-slide");
+                var dots = document.getElementsByClassName("scm-slide-dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+                for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+        <\/script>
+    </body>
+</html>`;
+}
+</script>
+<div class="scm-container" style="display: none;">
+    <div id="scm-reviews-importer">
+        <iframe id="scm-reviews-importer-iframe" width="100%"></iframe>
+    </div>
+</div>
+
+ {{ "reviews-importer.css" | asset_url | stylesheet_tag }}
+{% assign countAverage = product.metafields.scm_review_importer.reviewsInfo_CountAverage | plus: 0 %}
+{%- if countAverage > 0 %}
+<div id="scm-reviews-itemprop" style="display: none;" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+    <meta itemprop="ratingValue" content="{{ product.metafields.scm_review_importer.reviewsInfo_CountAverage }}">
+    <meta itemprop="ratingCount" content="{{ product.metafields.scm_review_importer.reviewsInfo_CountTotal }}">
+</div>
+{%- endif -%}

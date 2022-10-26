@@ -1,0 +1,44 @@
+<div id="cart__timer--checkout" class="cart__timer--checkout">
+    {% render 'icon', icon: 'permission-bi-lightning' %}
+    <div class="cart__timer__text">
+      <span>+500 ASK Bonus</span> if you checkout in
+      <span class="cart__timer-num--minutes">0</span>:<span class="cart__timer-num--seconds">0</span></span>
+    </div>	
+  </div>
+  <style>
+    .mini-cart__recap .cart__timer--checkout {
+      margin-top: 20px;
+    }
+    .sidebar__content .cart__timer--checkout {
+      margin-bottom: 22px;
+    }
+    .page__sub-header,
+    .page__header--stack .cart__timer--checkout {
+      margin-right: auto;
+      margin-left: 20px;
+    }
+   .cart__timer--checkout {
+      background: #FFC700;
+      border-radius: 5px;
+      height: 43px;
+      padding: 0 14px;
+      display: none;
+      justify-content: center;
+      align-items: center;
+   }
+   .cart__timer--checkout svg {
+      width: 16px;
+      height: 20px;
+      margin-right: 8px;
+    }
+   .cart__timer--checkout svg path {
+      fill: white;
+    }
+    .cart__timer__text {
+      line-height: 1;
+      text-align: center;
+    }
+    .cart__timer__text span {
+      font-weight: 700;
+    }
+  </style>

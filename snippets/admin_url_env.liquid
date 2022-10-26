@@ -1,0 +1,8 @@
+{%- if shop.secure_url == 'https://shopandearn.permission.io' -%}
+  {%- assign admin_url_env = 'https://my.permission.io' -%}
+{%- elsif shop.secure_url == 'https://shop.staging.permission.dev' -%}
+  {%- assign admin_url_env = 'https://my.staging.permission.dev' -%}
+{%- endif -%}
+
+
+{{admin_url_env}}

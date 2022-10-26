@@ -1,0 +1,150 @@
+<section class="section permission-item-list" data-section-id="{{ section.id }}"
+   data-section-type="permission-item-list">
+   <div class="container">
+      <div class="permission-item-list__logo">
+         <svg width="72" height="60" viewBox="0 0 72 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+               d="M60.8769 27.7795V44.2737L35.9987 59.1215L11.1211 44.2737V37.6769L35.9987 52.5225L41.5272 49.2236L24.9422 39.3261L30.4707 36.0266L47.0558 45.924L52.586 42.6251L35.9987 32.7277L41.5272 29.4281L55.3483 37.6769V31.0768L47.0558 26.1286L52.5843 22.8291L60.8769 27.7795Z"
+               fill="#666666" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+               d="M41.5599 3.24243L11.1211 21.073V14.5904L36.0254 0L41.5599 3.24243Z" fill="#666666" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+               d="M5.85362 11.7075V47.4146L0 44.1682V14.9533L5.85362 11.7075Z" fill="#666666" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+               d="M71.9989 14.6346V44.1366L66.4895 47.4143V24.4665L47.2069 12.9949L30.6793 22.8285L25.1699 19.5508L47.2069 6.43896L66.4895 17.9123V11.3569L71.9989 14.6346Z"
+               fill="#666666" />
+         </svg>
+      </div>
+      {%- if section.settings.title != blank -%}
+      <header class="section__header">
+         <h2 class="section__title heading h3">{{ section.settings.title | escape }}</h2>
+      </header>
+      {%- endif -%}
+
+      <div class="permission-item-list__quick-links ">
+         {%- for block in section.blocks -%}
+         <a {% if block.settings.link %}href="{{ block.settings.link }}" {% endif %} class="permission-item-list__link"
+            {{ block.shopify_attributes }}>
+            {%- if block.settings.image -%}
+
+            <div id="block-{{ block.id }}" class="permission-item-list__image-container">
+               <img class="lazyload image--fade-in" data-src="{{ block.settings.image | img_url: '208x' }}"
+                  alt="{{ block.settings.image.alt | escape }}">
+
+               <noscript>
+                  <img src="{{ block.settings.image | img_url: '280x' }}" alt="{{ block.settings.image.alt | escape }}">
+               </noscript>
+            </div>
+            {%- else -%}
+            <div class="quick-links__image-container">
+               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
+            {%- endif -%}
+         </a>
+         {%- endfor -%}
+
+      </div>
+
+
+
+
+
+      {%- if section.settings.link_title != blank and section.settings.link != blank -%}
+      <div class="permission-item-list__button">
+         <a href="{{ section.settings.link }}" class="button button--primary">{{ section.settings.link_title | escape }}
+         </a>
+      </div>
+      {%- endif -%}
+     
+      <!-- GPT AdSlot 4 for Ad unit 'Permission_IO' ### Size: [[320,50]] -->
+      <div id='div-gpt-ad-Home-BTF'>
+         <script>
+            googletag.cmd.push(function () {
+               googletag.display('div-gpt-ad-Home-BTF');
+            
+
+              if (typeof(pubwise) != 'undefined' && pubwise.enabled === true) {
+                 pwpbjs.que.push(function () {
+                    console.log("registering lazy load");
+                    pwRegisterLazyLoad(gptadslots['div-gpt-ad-Home-BTF'],2, [10,0,10,0], 0, 800, 2);
+                 });
+              }else{
+                 googletag.pubads().refresh([gptadslots['div-gpt-ad-Home-BTF']])
+              }
+            });
+         </script>
+      </div>
+      <!-- End AdSlot 4 -->
+   </div>
+</section>
+
+
+{% schema %}
+{
+  "name":"Permission Swag",
+  "settings":[
+     {
+        "type":"text",
+        "id":"title",
+        "label":"Heading",
+        "default":"Permission item list"
+     },
+     {
+        "type":"text",
+        "id":"link_title",
+        "label":"Link title"
+     },
+     {
+        "type":"url",
+        "id":"link",
+        "label":"Link"
+     }
+  ],
+  "blocks":[
+     {
+        "type":"permission-item",
+        "name":"Permission item",
+        "limit":5,
+        "settings":[
+           {
+              "type":"image_picker",
+              "id":"image",
+              "label":"Image",
+              "info":"250 x 80px .jpg recommended"
+           },
+           {
+              "type":"url",
+              "id":"link",
+              "label":"Link"
+           }
+        ]
+     }
+  ],
+  "presets":[
+     {
+        "category":"Collection",
+        "name":"Permission Swag",
+        "settings":{
+           
+        },
+        "blocks":[
+           {
+              "type":"permission-item"
+           },
+           {
+              "type":"permission-item"
+           },
+           {
+              "type":"permission-item"
+           },
+           {
+              "type":"permission-item"
+           },
+           {
+              "type":"permission-item"
+           }
+        ]
+     }
+  ]
+}
+{% endschema %}

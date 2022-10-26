@@ -1,0 +1,102 @@
+<section class="section section__permission-main-banner" data-section-id="{{ section.id }}" data-section-type="permission-main-banner">
+
+  <div id="permission-main-banner" class="permission-main-banner">
+    <div class="container permission-main-banner__container">
+
+      {%- if section.settings.title -%}
+      <div class="permission-main-banner__title">
+        {{ section.settings.title }}
+      </div>      
+      {%- endif -%}
+
+      {%- if section.settings.text -%}
+      <div class="permission-main-banner__text">
+        {{ section.settings.text }}
+      </div>      
+      {%- endif -%}
+      
+      {%- if section.settings.banner_link_url -%}
+      <div class="permission-main-banner__link">
+        <a href="{{ section.settings.banner_link_url }}">{{ section.settings.banner_link_text }}</a>
+      </div>      
+      {%- endif -%}
+      
+    </div>
+
+  </div>
+  <style>
+    .permission-main-banner__title,
+    .permission-main-banner__text,
+    .permission-main-banner__link a {
+      color: {{ section.settings.text_color }};
+    }
+    .permission-main-banner {
+      background-image: url({{ section.settings.image | img_url: '1200x' }});
+    }
+    @media screen and (max-width: 768px) {
+      .permission-main-banner {
+        background-image: url({{ section.settings.image-mobile | img_url: '400x' }});
+      }      
+    }
+    @media screen and (max-width: 576px) {
+      .permission-main-banner {
+        background-image: url({{ section.settings.image-mobile | img_url: '300x' }});
+      }      
+    }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Permission main banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-mobile",
+      "label": "Image mobile",
+      "info": "recommended"
+    },
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "<p>Title</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Text</p>"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "banner_link_text",
+      "label": "Link text"
+    },
+    {
+      "type": "url",
+      "id": "banner_link_url",
+      "label": "Link url"
+    } 
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Permission main banner",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
